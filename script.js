@@ -1,4 +1,8 @@
 fuction removecolor(){
-	let x = document.getElementById("colorSelect");
-	x.remove(x.selectedIndex);
+	let selectElement = document.getElementById("colorSelect");
+	let selectedIndex = selectElement.selectedIndex;
+
+	if(selectedIndex !== -1){
+		selectElement.remove(selectedIndex);
+	}
 }
