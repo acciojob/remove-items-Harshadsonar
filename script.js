@@ -1,1 +1,4 @@
-//your JS code here. If required.
+fuction removeColor(){
+	let x = document.getElementById("colorSelect");
+	x.remove(x.selectedIndex);
+}
