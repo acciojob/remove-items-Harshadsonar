@@ -1,8 +1,10 @@
-fuction removecolor(){
-	let selectElement = document.getElementById("colorSelect");
-	let selectedIndex = selectElement.selectedIndex;
+// script.js
 
-	if(selectedIndex !== -1){
-		selectElement.remove(selectedIndex);
-	}
+function removeColor() {
+  var selectElement = document.getElementById("colorSelect");
+  var selectedIndex = selectElement.selectedIndex;
+
+  if (selectedIndex !== -1) {
+    selectElement.remove(selectedIndex);
+  }
 }
